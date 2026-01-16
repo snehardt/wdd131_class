@@ -1,7 +1,7 @@
 #content {
     margin: 0 auto;
-    padding: 60px;
-    padding-top: 0px;
+    max-width: 900px;
+    padding: 80px;
 }
 h1 {
     padding-top: 30px;
@@ -18,18 +18,20 @@ p {
     line-height: 1.5;
 }
 #numbers {
-    list-style-type: decimal;
-    margin-left: 40px;
+    margin: 0;
+    padding-left: 40px;
 }
-li {
-    margin-bottom: 15px;
+#numbers li {
+
+    margin: 0 0 15px 0;
     line-height: 1.5;
-    margin-left: -20px;
+    
 }
 img {
     display: block;
-    margin: 20px auto;
-    width: 25%;
+    margin: 80px auto 0;
+    width: 40%;
+    max-width: 300px;
     height: auto;
 }
 .fancy {
