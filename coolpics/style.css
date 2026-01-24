@@ -16,14 +16,18 @@ footer {
     background-color: rgba(27, 60, 244, 0.868);
     color: white;
 }
-
 main {
+    background-color: lightgray;
+    padding: 1rem;
+}
+
+.gallery {
     display: grid;
     grid-template-columns: 1fr;
     gap: 2rem;
     margin: 0 auto; 
     padding: 1rem;
-    background-color: lightgray;
+    max-width: 1000px;
 }
 
 main img {
@@ -37,9 +41,14 @@ main img {
     border: 1px solid #ccc;
     margin: 0 auto;
     box-sizing: border-box;
+    box-shadow: 5px 5px 15px black;
 }
 
 h1 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
 
@@ -83,7 +92,7 @@ footer {
 
 
 @media screen and (min-width: 700px) {
-    main{
+    .gallery {
         grid-template-columns: 1fr 1fr;
     }
     .menu-btn{
@@ -99,7 +108,7 @@ footer {
           
 
 @media screen and (min-width: 1000px) {
-    main {
+    .gallery {
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 auto;
     }
